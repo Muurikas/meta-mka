@@ -1,8 +1,8 @@
 SUMMARY = "Web Toolkit C++ Framework"
 DESCRIPTION = "Framework for creating web application development with C++"
 HOMEPAGE = "https://www.webtoolkit.eu/"
-LICENSE = "GPL"
-# LIC_FILES_CHKSUM = "file://LICENCE;beginline=38;endline=50;md5=51babd597624b70752069953876aaa18"
+LICENSE = "GPLv2"
+LIC_FILES_CHKSUM = "file://LICENSE;md5=6565235fddf41c29afe574c96e32358c"
 
 inherit cmake
 
@@ -17,6 +17,7 @@ S = "${WORKDIR}/git"
 
 PV = "1.0+git${SRCREV}"
 
+FILES_${PN} += "${datadir}/Wt"
 
 DEPENDS = "boost"
-RDEPENDS_${PN} = "boost"
+RDEPENDS_${PN} = "boost libcrypto libssl"
