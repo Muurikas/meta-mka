@@ -1,0 +1,13 @@
+diff --git a/mkpimage/main.go b/mkpimage/main.go
+index 6a3b8d9..345d98c 100644
+--- a/mkpimage/main.go
++++ b/mkpimage/main.go
+@@ -3,7 +3,7 @@ package main
+ import (
+ 	"encoding/binary"
+ 	"fmt"
+-	"github.com/docopt/docopt.go"
++	"github.com/docopt/docopt-go"
+ 	"io/ioutil"
+ 	"os"
+ 	"strconv"

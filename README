@@ -1,1 +1,7 @@
-Placeholder and commit test.
+This is a meta layer for Yocto build system.
+
+Used mainly for testing purposes and generating new recipes that cant be found elsewhere.
+
+Tested with poky - jethro branch.
+
+
