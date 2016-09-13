@@ -1,6 +1,9 @@
 SUMMARY = "Basic image for testing & development purposes"
 
-IMAGE_INSTALL += "webtoolkit \
+IMAGE_INSTALL += " \
+	packagegroup-core-boot \
+	packagegroup-base-extended \
+	webtoolkit \
 "
 
 #		qtbase \
